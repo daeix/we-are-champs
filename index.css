@@ -1,0 +1,89 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(75, 85, 99, 1);
+  user-select: none;
+}
+
+img {
+  width: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  padding-top: 30px;
+}
+
+h1,
+h2 {
+  color: white;
+  text-align: center;
+  font-family: Josefin Sans;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+textarea {
+  background-color: rgba(75, 85, 99, 1);
+  width: 272px;
+  height: 100px;
+  resize: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+button {
+  background-color: rgb(40, 149, 208);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 10px;
+  width: 304px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Josefin Sans;
+}
+
+button:hover {
+  background-color: rgb(22, 73, 101);
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+ul li {
+  background-color: rgb(228, 223, 223);
+  list-style: none;
+  margin: 5px;
+  max-width: 285px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 285px;
+}
+
+.container {
+  background-color: rgb(0, 0, 0);
+  width: 370px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  padding-bottom: 5px;
+}
